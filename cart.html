@@ -1,172 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial- scale =1.0" />
+    <title>All Product-DreamCart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial- scale =1.0">
-  <title>All Product-DreamCart </title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-</head>
-
-<body>
-  <div class="container">
+  <body>
     <div class="navbar">
       <div class="logo">
-        <img src="logo-removebg-preview.png" width="125px">
+        <img src="logo-removebg-preview.png" width="125px" />
       </div>
       <nav>
-        <ul id="MenuItem">
-          <li><a href="">Home</a></li>
-          <li><a href="">Products</a></li> 
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Account</a></li>
+        <input type="text" class="search-bar" placeholder="Search..." />
+        <ul id=" MenuItem">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product/product.html">Products</a></li>
+          <li><a href="aboutproject/about.html">About</a></li>
+          <li><a href="aboutproject/contct.html">Contact</a></li>
+          <li><a href="login/login.html">Account</a></li>
         </ul>
       </nav>
-      <img src="images/menu.png" class="menu-icon" class="menu-icon" onclick="menutoggle()">
+      <a href="cart.html"
+        ><img src="./images/cart.png" width="30px" height="30px"
+      /></a>
     </div>
-  </div>
 
-  <!-------cart items details-->
-  <div class="small-container">
-    <table>
-      <tr>
-        <th> Product </th>
-        <th> Quantity </th>
-        <th> Subtotal </th>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="images/buy-1.jpg">
-            <div>
-              <p>Red Printed T-Shirt</p>
-              <small>Price:$50.00</small>
-              <br>
-              <a href="">Remove</a>
-            </div>
-          </div>
-
-        </td>
-        <td>Product name</td>
-        <td><input type="number" value="1"></td>
-        <td>$50.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="images/buy-2.jpg">
-            <div>
-              <p>Red Printed T-Shirt</p>
-              <small>Price:$70.00</small>
-              <br>
-              <a href="">Remove</a>
-            </div>
-          </div>
-
-        </td>
-        <td>Product name</td>
-        <td><input type="number" value="1"></td>
-        <td>$50.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="images/buy-3.jpg">
-            <div>
-              <p>Red Printed T-Shirt</p>
-              <small>Price:55.00</small>
-              <br>
-              <a href="">Remove</a>
-            </div>
-          </div>
-
-        </td>
-        <td>Product name</td>
-        <td><input type="number" value="1"></td>
-        <td>$50.00</td>
-      </tr>
-    </table>
-    <div class="total-price">
+    <!-------cart items details-->
+    <div class="small-container">
       <table>
         <tr>
-          <td>Subtotal</td>
-          <td>$200.00</td>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
         </tr>
         <tr>
-          <td>Tax</td>
-          <td>$35.00</td>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-1.jpg" />
+              <div>
+                <p>Red Printed T-Shirt</p>
+                <small>Price:$50.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$50.00</td>
         </tr>
         <tr>
-          <td>Total</td>
-          <td>$235.00</td>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-2.jpg" />
+              <div>
+                <p>Red Printed T-Shirt</p>
+                <small>Price:$70.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$70.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-3.jpg" />
+              <div>
+                <p>Red Printed T-Shirt</p>
+                <small>Price:55.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$55.00</td>
         </tr>
       </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$175.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$25.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$200.00</td>
+          </tr>
+        </table>
+      </div>
     </div>
 
-
-
-  </div>
-
-
-  <!-- ----------------footer-------------------- -->
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col-1">
-          <h3>Download our app</h3>
-          <p>Download app for mobile and ios mobile phone.</p>
-          <div class="app-logo">
-            <img src="images/app-store.png">
-            <img src="images/play-store.png">
+    <!-- ----------------footer-------------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our app</h3>
+            <p>Download app for mobile and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/app-store.png" />
+              <img src="images/play-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="logo-removebg-preview2.png" />
+            <p>
+              Our purpose is to sustainably make the pleasure and benifits of
+              sports accessable to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>join Affilate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
           </div>
         </div>
-        <div class="footer-col-2">
-          <img src="logo-removebg-preview2.png">
-          <p>Our purpose is to sustainably make the pleasure and benifits of sports accessable to the many.</p>
-        </div>
-        <div class="footer-col-3">
-          <h3>Useful links</h3>
-          <ul>
-            <li>Coupons</li>
-            <li>Blog Post</li>
-            <li>Return Policy</li>
-            <li>join Affilate</li>
-          </ul>
-        </div>
-        <div class="footer-col-4">
-          <h3>Follow us</h3>
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>Youtube</li>
-          </ul>
-        </div>
+        <hr />
+        <p class="copyright">Copyright 2023-Easy Tutorials</p>
       </div>
-      <hr>
-      <p class="copyright">Copyright 2023-Easy Tutorials</p>
     </div>
-  </div>
-  <!------------js for toggle menu-------->
-  <script>
-    var MenuItem = document.getElementById("MenuItem");
+    <!------------js for toggle menu-------->
+    <script>
+      var MenuItem = document.getElementById("MenuItem");
 
-    MenuItem.style.maxHeight = "0px";
-    function menutoggle() {
-      if (MenuItem.style.maxHeight == "0px") {
-        MenuItem.style.maxHeight = "200px";
-
+      MenuItem.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItem.style.maxHeight == "0px") {
+          MenuItem.style.maxHeight = "200px";
+        } else {
+          MenuItem.style.maxHeight = "0px";
+        }
       }
-      else {
-        MenuItem.style.maxHeight = "0px";
-      }
-    }
-  </script>
-
-</body>
-
+    </script>
+  </body>
 </html>

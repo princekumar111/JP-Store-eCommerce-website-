@@ -1,221 +1,251 @@
-/<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial- scale =1.0" />
+    <title>All Product-DreamCart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial- scale =1.0">
-  <title>All Product-DreamCart </title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="navbar">
-      <div class="logo">
-        <img src="/logo-removebg-preview.png" width="125px">
-      </div>
-      <nav>
-        <ul id="MenuItem">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="product.html">Products</a></li>
-          <li><a href="/aboutproject/about.html">About</a></li>
-          <li><a href="/aboutproject/contct.html">Contact</a></li>
-          <li><a href="">Account</a></li>
-        </ul>
-      </nav>
-      <img src="/images/cart.png" width="30px" height="30px">
-      <img src="menu.png" class="menu-icon" class="menu-icon" onclick="menutoggle()">
-    </div>
-  </div>
-  <!-----------single product details---->
-  <div class="small-container single-product">
-    <div class="row">
-      <div class="col-2">
-        <img src="/images/gallery-1.jpg" width="100%" id="ProductImg">
-        <div class="small-img-row">
-          <div class="small-img-col">
-            <img src="/images/gallery-1.jpg" width="100%" class="small-img">
-          </div>
-          <div class="small-img-col">
-            <img src="/images/gallery-2.jpg" width="100%" class="small-img">
-          </div>
-          <div class="small-img-col">
-            <img src="/images/gallery-3.jpg" width="100%" class="small-img">
-          </div>
-          <div class="small-img-col">
-            <img src="/images/gallery-4.jpg" width="100%" class="small-img">
-          </div>
-
-        </div>
-
-
-
-      </div>
-      <div class="col-2">
-        <p>Home / T-Shirt</p>
-        <h1>Graphic Tee Men Printed Round Neck Cotton Blend Red T-Shirt</h1>
-        <h4>₹430.00</h4>
-        <select>
-          <option> Select Size </option>
-          <option> XXL</option>
-          <option>XL </option>
-          <option> LARGE </option>
-          <option> MEDIUM </option>
-          <option> SMALL </option>
-        </select>
-        <input type="number" value="1">
-        <a href="" class="btn">Add To cart</a>
-        <h3>Product Details<i class="fa fa-indent"></i></h3>
-        <br>
-        <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of short for
-          your morning workout or a denims for an evening out with the guys.</p>
-
-      </div>
-    </div>
-  </div>
-
-  <!---------title---->
-  <div class="small-container">
-    <div class="row row-2">
-      <h2>Related Products</h2>
-      <p>View More</p>
-    </div>
-  </div>
-
-  <!---products  ----->
-  <div class="small-container ">
-    <div class="row ">
-      <div class="col-4 ">
-        <img src="/images/productpage1image5.png">
-        <h4><a href="productdetails10.html">Men Typography Round Neck Polyester Grey T-Shirt</a></h4>
-        <div class="rating ">
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-o "></i>
-
-        </div>
-        <p>₹299.00</p>
-      </div>
-      <div class="col-4 ">
-        <img src="/images/product1image9.png">
-        <h4><a href="productdetails1.html">Printed Round Neck Pure Cotton Black T-Shirt</a></h4>
-        <div class="rating ">
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star-half-o "></i>
-          <i class="fa fa-star-o "></i>
-
-        </div>
-        <p>₹470.00</p>
-      </div>
-      <div class="col-4 ">
-        <img src="/images/product1image14.png">
-        <h4>Pack of 4 Men Solid Round Neck Polyester Light Blue, Blue, Black, Grey T-Shirt</h4>
-        <div class="rating ">
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star-half-o "></i>
-
-        </div>
-        <p>₹395.00</p>
-      </div>
-      <div class="col-4 ">
-        <img src="/images/gallery-1.jpg">
-        <h4><a href="productdetails8.html">Red printed T-shirt</a></h4>
-        <div class="rating ">
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star "></i>
-          <i class="fa fa-star-o "></i>
-
-        </div>
-        <p>₹430.00</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- ----------------footer-------------------- -->
-  <div class="footer">
+  <body>
     <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="../logo-removebg-preview.png" width="125px" />
+        </div>
+        <nav>
+          <ul id="MenuItem">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="/aboutproject/about.html">About</a></li>
+            <li><a href="/aboutproject/contct.html">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="../images/cart.png" width="30px" height="30px" />
+        <img
+          src="menu.png"
+          class="menu-icon"
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+    <!-----------single product details---->
+    <div class="small-container single-product">
       <div class="row">
-        <div class="footer-col-1">
-          <h3>Download our app</h3>
-          <p>Download app for mobile and ios mobile phone.</p>
-          <div class="app-logo">
-            <img src="/images/play-store.png">
-            <img src="/images/app-store.png">
+        <div class="col-2">
+          <img src="../images/gallery-1.jpg" width="100%" id="ProductImg" />
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="../images/gallery-1.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="../images/gallery-2.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="../images/gallery-3.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="../images/gallery-4.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
           </div>
         </div>
-        <div class="footer-col-2">
-          <img src="/logo-removebg-preview2.png">
-          <p>Our purpose is to sustainably make the pleasure and benifits of sports accessable to the many.</p>
-        </div>
-        <div class="footer-col-3">
-          <h3>Useful links</h3>
-          <ul>
-            <li>Coupons</li>
-            <li>Blog Post</li>
-            <li>Return Policy</li>
-            <li>join Affilate</li>
-          </ul>
-        </div>
-        <div class="footer-col-4">
-          <h3>Follow us</h3>
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>Youtube</li>
-          </ul>
+        <div class="col-2">
+          <p>Home / T-Shirt</p>
+          <h1>Graphic Tee Men Printed Round Neck Cotton Blend Red T-Shirt</h1>
+          <h4>₹430.00</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>LARGE</option>
+            <option>MEDIUM</option>
+            <option>SMALL</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn">Add To cart</a>
+          <h3>Product Details<i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Give your summer wardrobe a style upgrade with the HRX Men's Active
+            T-shirt. Team it with a pair of short for your morning workout or a
+            denims for an evening out with the guys.
+          </p>
         </div>
       </div>
-      <hr>
-      <p class="copyright">Copyright 2023-Easy Tutorials</p>
     </div>
-  </div>
-  <!------------js for toggle menu-------->
-  <script>
-    var MenuItem = document.getElementById("MenuItem");
 
-    MenuItem.style.maxHeight = "0px";
+    <!---------title---->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
 
-    function menutoggle() {
-      if (MenuItem.style.maxHeight == "0px") {
-        MenuItem.style.maxHeight = "200px";
+    <!---products  ----->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="../images/productpage1image5.png" />
+          <h4>
+            <a href="productdetails10.html"
+              >Men Typography Round Neck Polyester Grey T-Shirt</a
+            >
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>₹299.00</p>
+        </div>
+        <div class="col-4">
+          <img src="../images/product1image9.png" />
+          <h4>
+            <a href="productdetails1.html"
+              >Printed Round Neck Pure Cotton Black T-Shirt</a
+            >
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>₹470.00</p>
+        </div>
+        <div class="col-4">
+          <img src="../images/product1image14.png" />
+          <h4>
+            Pack of 4 Men Solid Round Neck Polyester Light Blue, Blue, Black,
+            Grey T-Shirt
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>₹395.00</p>
+        </div>
+        <div class="col-4">
+          <img src="../images/gallery-1.jpg" />
+          <h4><a href="productdetails8.html">Red printed T-shirt</a></h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>₹430.00</p>
+        </div>
+      </div>
+    </div>
 
-      } else {
-        MenuItem.style.maxHeight = "0px";
+    <!-- ----------------footer-------------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our app</h3>
+            <p>Download app for mobile and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="../images/play-store.png" />
+              <img src="../images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="../logo-removebg-preview2.png" />
+            <p>
+              Our purpose is to sustainably make the pleasure and benifits of
+              sports accessable to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>join Affilate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023-Easy Tutorials</p>
+      </div>
+    </div>
+    <!------------js for toggle menu-------->
+    <script>
+      var MenuItem = document.getElementById("MenuItem");
+
+      MenuItem.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItem.style.maxHeight == "0px") {
+          MenuItem.style.maxHeight = "200px";
+        } else {
+          MenuItem.style.maxHeight = "0px";
+        }
       }
-    }
-  </script>
+    </script>
 
-  <!-----js for product gallery------>
-  <script>
-    var ProductImg = document.getElementById("ProductImg");
-    var smallImg = document.getElementsByClassName("small-img");
-    smallImg[0].onclick = function () {
-      ProductImg.src = smallImg[0].src;
-    }
-    smallImg[1].onclick = function () {
-      ProductImg.src = smallImg[1].src;
-    }
-    smallImg[2].onclick = function () {
-      ProductImg.src = smallImg[2].src;
-    }
-    smallImg[3].onclick = function () {
-      ProductImg.src = smallImg[3].src;
-    }
-  </script>
-</body>
-
+    <!-----js for product gallery------>
+    <script>
+      var ProductImg = document.getElementById("ProductImg");
+      var smallImg = document.getElementsByClassName("small-img");
+      smallImg[0].onclick = function () {
+        ProductImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        ProductImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        ProductImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        ProductImg.src = smallImg[3].src;
+      };
+    </script>
+  </body>
 </html>

@@ -14,9 +14,4 @@
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- [Optional] Bootstrap or other libraries (if you used any)
-
----
-
-## 📂 Folder Structure
 
